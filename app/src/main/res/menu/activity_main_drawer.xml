@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Profile"-->
+            <!--/>-->
+        <item
+            android:id="@+id/outlook"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Outlook" />
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/mess_menu"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mess Menu" />
+
+        <item
+            android:id="@+id/internet_set"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Internet Settings" />
+
+        <!--<item-->
+            <!--android:id="@+id/ip_cal"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="IP Calculator" />-->
+
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Log Out" />
+
+
+    </group>
+
+
+
+</menu>
